@@ -3,10 +3,6 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      screens: {
-        mobile: "480px",
-        "2k": "1440px",
-      },
       colors: {
         "dark-cyan": "hsl(185, 75%, 39%)",
         "very-dark-desaturated-blue": "hsl(229, 23%, 23%)",
